@@ -7,6 +7,6 @@ YOUTUBE_API_KEY = "API_Key"
 GEMINI_API_KEY = "API_Key"
 
 
-# pip install -r requirements.txt
+## pip install -r requirements.txt
 
 and run the file!!
