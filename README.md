@@ -19,3 +19,16 @@ To run this project, you'll need Python 3.6 or later. You also need API keys for
    ```bash
    git clone https://github.com/yourusername/YT-Comment_Analyzer.git
    cd YT-Comment_Analyzer
+
+2. **Execution**
+   
+   make .env file and paste API's
+   ```bash
+   YOUTUBE_API_KEY="your_youtube_api_key_here"
+   GEMINI_API_KEY="your_gemini_api_key_here"
+
+   ```bash
+   pip install -r requirements.txt
+
+   ```bash
+   python YT-final.py
