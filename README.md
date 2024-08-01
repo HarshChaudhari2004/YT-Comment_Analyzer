@@ -1,12 +1,21 @@
 # YT-Comment_Analyzer
-Takes youtube video link as input and analyzes the comments and provides summary.
 
-make .env file and paste api's.
+`YT-Comment_Analyzer` is a Python script that takes a YouTube video URL as input, fetches comments using the YouTube Data API, and analyzes them to provide a summary using the Gemini API.
 
-YOUTUBE_API_KEY = "API_Key"
-GEMINI_API_KEY = "API_Key"
+## Features
 
+- Extracts comments from a YouTube video.
+- Analyzes comments and provides a summary.
+- Identifies overall sentiment and audience reactions.
 
-## pip install -r requirements.txt
+## Requirements
 
-and run the file!!
+To run this project, you'll need Python 3.6 or later. You also need API keys for the YouTube Data API and the Gemini API.
+
+## Setup
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/YT-Comment_Analyzer.git
+   cd YT-Comment_Analyzer
